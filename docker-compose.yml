@@ -1,0 +1,10 @@
+version: '2'
+services:
+  db:
+    image: mysql
+    environment:
+      - "MYSQL_ROOT_PASSWORD=mysql"
+    volumes:
+      - "/var/lib/mysql:/var/lib/mysql"
+
+
