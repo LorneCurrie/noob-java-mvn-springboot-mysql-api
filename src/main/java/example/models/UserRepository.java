@@ -1,4 +1,4 @@
-package nz.co.tepapa.serverless.models;
+package example.models;
 
 import org.springframework.data.repository.CrudRepository;
 
